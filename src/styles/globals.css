@@ -1,0 +1,19 @@
+@import "varibles.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family), sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(151deg,rgba(42, 123, 155, 1) 0%, rgba(216, 222, 38, 1) 31%, rgba(147, 232, 245, 1) 100%);    min-height: 100vh;
+    padding: 0;
+}
+
+#root {
+    min-height: 100vh;
+}
